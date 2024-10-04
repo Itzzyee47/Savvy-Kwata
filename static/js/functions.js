@@ -22,3 +22,14 @@ function closeBottomNav(){
         bottomNav.classList.add('close')
         setTimeout(()=>{ bottomNav.style.display = 'none';},1000);
 }
+
+function today(){
+    var D = new Date;
+    var dateDiv = document.getElementById('today');
+
+    let date = D.toDateString();
+
+    dateDiv.innerHTML = date;
+}
+
+today()
