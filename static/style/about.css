@@ -139,7 +139,10 @@ nav{
     cursor: pointer;
     box-shadow: 1px 2px 8px rgba(128, 128, 128, 0.518);
 }
-
+.bottomNav-content1>li:hover,.material-symbols-outlined:hover{
+   
+    cursor: pointer;
+}
 ::-webkit-scrollbar{
     display: none;
 }
@@ -266,7 +269,7 @@ li{
 }
 .bottomNav-content2{
     line-height: 1.6;
-    width: 100%;
+    width: 50%;
     margin-top: 15px;
     float: right;
     margin-right: 4%;
@@ -297,5 +300,8 @@ li{
     }
     .footer{
         flex-direction: column;
+    }
+    .bottomNav-content2{
+        width: 100%;
     }
   }
